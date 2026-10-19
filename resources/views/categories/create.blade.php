@@ -16,8 +16,9 @@
         </label>
 
         <input type="text"
-               name="name"
-               class="form-control">
+       name="name"
+       class="form-control"
+       value="{{ old('name') }}">
 
     </div>
 
